@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  padding: 8px;
+  background: #22c55e;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.filters button {
+  background: #334155;
+}
+
+li {
+  margin-top: 10px;
+  background: #334155;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
